@@ -1,0 +1,160 @@
+#product {
+   
+  background-color: $gray-400;
+
+  .btn-primary {
+    background-color: $micolor;
+    border-color: $mibordercolor;
+  }
+
+  .h1 {
+    font-family: $mih1;
+    text-transform: none;
+    color: $mifontcolor;
+    font-weight: 700;
+    font-size: 1.429rem;
+  }
+
+  .current-price-display {
+    color: $micolor;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .product-prices{
+    margin-top: 15px;
+  }
+
+  .discount {
+    background: #ee413d;
+    border-radius: 4px;
+    color: $gray-400;
+    font-size: 14px;
+    padding: 1px 3px;
+    position: relative;
+    top: -3px;
+  }
+
+  .regular-price{
+    font-size: 19px;
+
+  }
+
+  .product-discount{
+    font-weight: 300;
+    font-size: 19px;
+    
+  }
+
+  .title{
+    display: block;
+    font-size: 10px;
+    color: #bbb;
+    border: none;
+    margin: 0px;
+  }
+
+  .product_description_short{
+    margin-top: 100px;
+  }
+
+  .oferta{
+    background: #ffeac9;
+    color: $micolor;
+    border: dashed; 
+    border-color: orange;
+  }
+
+  .texto{
+    color:$colorsecundario;
+    font-family:'Open Sans', arial, sans-serif;
+    font-size:13px;
+  }
+
+  .btn-secondary{
+    background:$gray-400;
+    border: 2px solid #dcdcdc;
+    height: 51px;
+    margin-right: 2px;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease-in;
+    color:$colorsecundario;
+  }
+
+  .en-stock{
+    background: #d6eed1;
+    color: #458057;
+    border: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 5px 5px 5px 10px;
+    display: block;
+    text-decoration:none;
+    margin-top: 5px;
+  }
+
+  a .disponibilidad{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #458057;
+
+  }
+
+  .input-group{
+    color:$colorsecundario;
+    font-family:'Open Sans', arial, sans-serif;
+    font-size:13px;
+    border-radius: 10px;
+    background-color: #bbb;
+
+  }
+
+  .subtitulos{
+    color: $colorsecundario;
+    font-weight: bolder;
+    padding-top: 5px;
+  }
+
+  .nav-tabs{
+    text-align: left;
+    padding: 15px 21px;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    color: $colorsecundario;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .nav-tabs .nav-link.active{
+    color: #000;
+    position: relative;
+    border-bottom: 3px solid $micolor;
+  }
+
+  .material-icons {
+    color: $micolor;
+  }
+
+  .iconos{
+    color: $colorsecundario;
+    font-size: 13px;
+    font-weight: 23em;
+    line-height: 13px;
+    transition: all .2s ease-in;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    padding-top: 10px;
+  }
+
+  .info{
+    color:$colorsecundario; 
+  }
+  
+
+}
