@@ -409,3 +409,11 @@ nb-configuration.xml
 .settings/
 .externalToolBuilders/
 
+
+pdf/
+
+src/
+
+autoload.php
+
+INSTALL.txt
