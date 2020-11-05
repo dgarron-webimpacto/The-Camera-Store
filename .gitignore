@@ -104,13 +104,8 @@ google114a09a0e978082b.html
 
 header.php
 
-images.inc.php
-
-index.php
-
 instagram.php
 
-init.php
 
 LICENSES
 
@@ -410,10 +405,10 @@ nb-configuration.xml
 .externalToolBuilders/
 
 
-pdf/
+/pdf/
 
-src/
+/src/
 
-autoload.php
+/autoload.php
 
-INSTALL.txt
+/INSTALL.txt
