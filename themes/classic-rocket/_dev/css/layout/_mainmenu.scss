@@ -11,7 +11,7 @@
 .menu__item-link--top{
   color: $menu-topitem-color;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: none;
   display: block;
   padding: $spacer/2;
 }
@@ -31,15 +31,20 @@
   }
   .menu-sub__content > ul {
     padding: 10px;
-    background-color: #fff;
-    box-shadow: $box-shadow;
+    background-color: green;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    z-index: 99999;
+    transition: left 0.3s ease-in-out;
+    //box-shadow: $box-shadow;
   }
   .menu__item--active .menu-sub {
     z-index: 2;
     opacity: 1;
   }
   .menu-sub__list--1 {
-    display: flex;
+    display: table;
   }
   .menu__item--1 {
     padding-right: 10px;
@@ -47,7 +52,7 @@
 
   }
   .menu__item-link--1 {
-    text-transform: uppercase;
+    text-transform: none;
     color: $black;
     .menu__item-link {
       color: $body-color;
