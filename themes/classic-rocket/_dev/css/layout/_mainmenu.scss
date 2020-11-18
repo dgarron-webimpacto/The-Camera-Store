@@ -24,14 +24,16 @@
     position: absolute;
     opacity: 0;
     width: 100%;
-    left: 0;
+    max-width: 100%;
+    //left: 0;
+    right: 0;
     top: 100%;
     z-index: -1;
     transition: all .5s ease;
   }
   .menu-sub__content > ul {
     padding: 10px;
-    background-color: green;
+    background-color: #fff;
     width: 100%;
     max-width: 100%;
     justify-content: center;
