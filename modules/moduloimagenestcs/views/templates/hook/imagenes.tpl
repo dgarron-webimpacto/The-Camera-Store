@@ -23,14 +23,19 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div class="row">
-  <div class="col-lg-6" >
+{* <div class="row">
+  <div class="col-lg-4" style="margin: 0 15px 30px 15px;">
       {* {if $custom_img}
           <img src="../modules/{$custom_img}">
       {/if} *}
-      <img id="custom_img" src="../modules/moduloimagenestcs/views/img/PersonalizedContentAreaRulesetContents10-1920x740-500708.jpg">
+      {*<img id="custom_img" src="../modules/moduloimagenestcs/views/img/PersonalizedContentAreaRulesetContents10-1920x740-500708.jpg">
   </div>
-  <div class="col-lg-6">
+  <div class="col-lg-4" style="margin: 0 15px 30px 15px;">
     <img id="custom_img" src="../modules/moduloimagenestcs/views/img/PersonalizedContentAreaRulesetContents11-1920x740-499179.jpg">
   </div>
-</div>
+  <div class="col-lg-4" style="margin: 0 15px 30px 15px;">
+    <img id="custom_img" src="../modules/moduloimagenestcs/views/img/PersonalizedContentAreaRulesetContents11-1920x740-499179.jpg">
+  </div>
+</div> *}
+
+

@@ -1,12 +1,15 @@
 .menu{
-  padding-bottom: $spacer;
+  padding-bottom: 0;
+  height: 100px;
 
 }
 .menu-top{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin: 0;
-  position: relative;
+  position: sticky;
+  top: 80px;
+  
 }
 .menu__item-link--top{
   color: $menu-topitem-color;
